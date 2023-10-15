@@ -1,5 +1,6 @@
 FROM ubuntu:latest AS build
 
+FROM openjdk:17-jdk-slim
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 
